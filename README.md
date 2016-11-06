@@ -1,22 +1,14 @@
 # Atividades do Exercício 4 solicitadas.
 
-Projeto exemploTags: versão 1.0 (arquivo .html para abrir no navegador)
-exemploTags.html: Arquivo HTML contendo exemplos das principais tags HTML.
+(0,5 pontos) Criar um contador de 0 a 100 em JSP e apresentar em formato de lista não ordenada em HTML (ul - li). Semelhante ao que foi feito em sala.
 
 
-Projeto exemploTags: versão 2.0 (arquivo .html para abrir no navegador)
-exemploTagsComEstilo.html: Arquivo HTML do exercício anterior + CSS.
+(0,5 pontos) Criar um contador de 0 a 100 em JSP e apresentar em formato de tabela de 10 x 10 com HTML (table - tr - td).
 
 
-Projeto drinkBook: (arquivo .html para abrir no navegador)
-Criar uma página de cadastro de pessoas (nome, data de nascimento, interesses, estado e avatar). Esta página deve conter uma lista das pessoas cadastradas e um formulário para cadastrar novas pessoas.
-Interesses: Cerveja, Vodka, Refrigerante, Água;
-Estados: SC, PR, RS;
-O avatar será um link de uma imagem da internet;
-O formulário para cadastro não vai estar operacional AINDA!
+(1 ponto) Projeto loteria: (versão 1.0)
+Implementar um scriptlet gerador de apostas da Loteria, onde a cada acesso, gera-se um HTML com 6 dezenas entre 0 e 59.
 
 
-Criar uma conta no GitHub e:
-Criar um repositório para cada um dos exercícios (exemploTags, drinkBook e loteria);
-Fazer o add, commit e push de cada um.
-Salvar o EXE em um pendrive para instalar nas máquinas do laboratório
+(1 ponto) Projeto loteria: (versão 2.0)
+Mostrar todas as dezenas (0 a 59) em uma tabela (table) com as seis dezenas geradas aleatoriamente destacadas. Por exemplo:
