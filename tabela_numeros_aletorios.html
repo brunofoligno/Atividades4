@@ -1,0 +1,27 @@
+<%@page import="java.util.Random"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>USJ-Loteria</title>
+    </head>
+    <body>
+        <h1>Números Gerados</h1>
+        
+        <%Random gerador = new Random();%>
+        
+        <table border="1">
+                 <% for (int i = 0; i < 6; i++){%>
+   
+            <tr>
+       
+                 <%for(int a = 0; a < 10; a++){%>
+             <td><%out.print(gerador.nextInt(59));%></td>
+                 <%}%>  
+                 <%}%>
+                 
+            </tr>     
+        </table>   
+    </body>
+</html>
